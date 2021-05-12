@@ -1,5 +1,10 @@
 package verifica_di_vincenzo;
 
+/**
+ * 
+ * @author Alessandro Di Vincenzo
+ */
+
 public class Dipendente extends Thread {
 
     Bancone bancone = new Bancone();

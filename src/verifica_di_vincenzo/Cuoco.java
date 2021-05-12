@@ -1,5 +1,10 @@
 package verifica_di_vincenzo;
 
+/**
+ * 
+ * @author Alessandro Di Vincenzo
+ */
+
 import static java.lang.Thread.sleep;
 
 public class Cuoco extends Thread {

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"verifica_di_vincenzo","l":"Bancone"},{"p":"verifica_di_vincenzo","l":"Cuoco"},{"p":"verifica_di_vincenzo","l":"Dipendente"},{"p":"verifica_di_vincenzo","l":"Main"}]

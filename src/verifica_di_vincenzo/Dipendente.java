@@ -11,10 +11,11 @@ public class Dipendente extends Thread {
 
     }
 
+    @Override
     public void run() {
         while (numeroDipendenti > 0) {
             try {
-                sleep((int) Math.random() * 2000); //Consuma
+                sleep((int) Math.random() * 9000); //Consuma
                 bancone.preleva();
             } catch (Exception e) {
             }

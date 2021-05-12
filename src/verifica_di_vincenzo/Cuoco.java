@@ -5,21 +5,20 @@ import static java.lang.Thread.sleep;
 public class Cuoco extends Thread {
 
     Bancone bancone = new Bancone();
-    int numeroPiatto;
 
-    public Cuoco(Bancone bancone, int numeroPiatto) {
+    public Cuoco(Bancone bancone) {
         this.bancone = bancone;
-        this.numeroPiatto = numeroPiatto;
     }
 
+    @Override
     public void run() {
         try {
 
-            sleep((int) Math.random() * 2000); //tempo per preparare il piatto
+            sleep((int) Math.random() * 9000); //tempo per preparare il piatto
 
         } catch (Exception e) {
         }
 
-        bancone.deposita(numeroPiatto);
+        bancone.deposita();
     }
 }

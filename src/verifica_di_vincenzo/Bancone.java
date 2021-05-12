@@ -6,7 +6,7 @@ import java.util.concurrent.Semaphore;
 public class Bancone {
     
     Semaphore pieno = new Semaphore(0);
-    Semaphore vuoto = new Semaphore(1);
+    Semaphore vuoto = new Semaphore(5);
     
     private int numeroPiatto;
     
